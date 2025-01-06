@@ -1,6 +1,6 @@
 "use client"
 export const calculateTimeToEvent = () => {
-    const eventDate = new Date("2024-12-12T09:00:00-07:00");
+    const eventDate = new Date("2025-12-12T09:00:00-07:00");
     const currentDate = new Date();
     const timeRemaining = eventDate.getTime() - currentDate.getTime();
 
